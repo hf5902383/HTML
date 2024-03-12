@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+</head>
+<body>
+<form action="#">
+    <table border="1px" style="border-collapse: collapse">
+        <caption>Welcome to Register</caption>
+        <tr>
+            <td>Username:</td>
+            <td>
+                <input type="text" name="uusername" value="" placeholder="Username">
+            </td>
+        </tr>
+        <tr>
+            <td>Password:</td>
+            <td>
+                <input type="text" name="upwd" value="" placeholder="Password">
+            </td>
+        </tr>
+        <tr>
+            <td>Gender:</td>
+            <td>
+                <input type="radio" name="gender" value="1" checked>Male
+                <input type="radio" name="gender" value="2">Female
+            </td>
+        </tr>
+        <tr>
+            <td>Hobby:</td>
+            <td>
+                <input type="checkbox" name="hobby" value="smoke">Smoke
+                <input type="checkbox" name="hobby" value="perm">perm
+                <input type="checkbox" name="hobby" value="drunk">drunk
+            </td>
+        </tr>
+        <tr>
+            <td>Address:</td>
+            <td><input type="text" name="address" value="" placeholder="Address"></td>
+        </tr>
+        <tr>
+            <td>Date Of Birth:</td>
+            <td><input type="date" name="date"></td>
+        </tr>
+        <tr>
+            <td>Photo:</td>
+            <td><input type="file" name="file" value=""></td>
+        </tr>
+        <tr>
+            <td>Born in:</td>
+            <td>
+                <select name="city">
+                    <option value="MTL">Montreal</option>
+                    <option value="TRT" selected>Toronto</option>
+                    <option value="VAR">Vancouver</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input id="yes" type="checkbox" name="agreement" value="" content="text-align: center;">
+                <label for="yes" content="text-align: center;">
+                    I Agree
+                </label>
+
+                </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+               <input type="submit" name="register" value="Register"></td>
+
+        </tr>
+    </table>
+</form>
+</body>
+</html>

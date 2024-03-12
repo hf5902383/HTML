@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单练习 Form</title>
+</head>
+<body>
+  <form action="#">
+    UserName <input type="text" name="uname" value="admin" placeholder="Pls enter username">
+    Password <input type="password" name="upassword" value="" placeholder="Pls enter password">
+    <br>Sex
+    <br>
+      Male<input type="radio" name="gender" value="1" checked>
+      Female<input type="radio" name="gender" value="2">
+    <br>
+      Hobby
+      <input type="checkbox" name="hobby" value="Smoking">抽烟
+      <input type="checkbox" name="hobby" value="Drunk">喝酒
+      <input type="checkbox" name="hobby" value="Eat">吃饭
+      <input type="checkbox" name="hobby" value="Java">学Java
+
+    <br>
+    生日：<input type="date" name="DateofBirth">
+    <br>
+    头像：<input type="file">
+    <br>
+    喜欢的城市：
+    <select name="city">
+      <option value="mtl" >Montreal</option>
+      <option value="trt" selected>Toronto</option>
+      <option value="Vcr">Vancouver</option>
+    </select>
+    <br>
+    <input type="checkbox" id="yes">
+    <label for="yes">Aggrement</label>
+
+    <br>
+    重制全部<input type="reset">
+
+    <br>
+    <input type="submit" value="Click to upload">
+  </form>
+
+
+</body>
+</html>
